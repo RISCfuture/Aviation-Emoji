@@ -11,10 +11,15 @@ Available emoji include:
 * METAR precipitation and visibility symbols
 * The Garmin "direct-to" symbol
 * Prog chart symbols
+* Flight instruments
+* Glideslope indicators (PAPI and IFLOLS)
 
-<img src=https://i.imgur.com/dUbmpXp.png />
-<img src=https://i.imgur.com/CbPV9Kp.png />
-<img src=https://i.imgur.com/b6tudG9.png />
-<img src=https://i.imgur.com/jLDKaYP.png />
-<img src=https://i.imgur.com/8BjpcRG.png />
-<img src=https://i.imgur.com/UQZuqch.png />
+<img src="https://i.imgur.com/ny1CpyE.png" />
+
+## Releasing
+
+After generating the images using Sketch…
+
+* To optimize the SVGs: `svgo -r .`
+* To crush the PNGs: `find . -name *.png -exec pngcrush -brute -reduce -ow {} \;`
+* To generate the preview image using ImageMagick: `montage -tile 10x0 **/*.png preview.png`
