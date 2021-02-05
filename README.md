@@ -13,8 +13,9 @@ Available emoji include:
 * Prog chart symbols
 * Flight instruments
 * Glideslope indicators (PAPI and IFLOLS)
+* Aviation organization logos
 
-<img src="https://i.imgur.com/ny1CpyE.png" />
+<img src="https://i.imgur.com/nkiXEg7.png" />
 
 ## Releasing
 
