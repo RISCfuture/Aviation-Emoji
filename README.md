@@ -15,7 +15,7 @@ Available emoji include:
 * Glideslope indicators (PAPI and IFLOLS)
 * Aviation organization logos
 
-<img src="https://i.imgur.com/nkiXEg7.png" />
+![preview](https://user-images.githubusercontent.com/15338/147522057-a090d7e9-8a04-4358-a109-8e9e6c178a12.png)
 
 ## Releasing
 
